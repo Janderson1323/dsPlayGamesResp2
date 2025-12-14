@@ -8,7 +8,7 @@
     --color-white: #FFF;
     --color-dark-gray: #797979;
     --color-magenta: #DD7E92;
-    --color-light-gray: ##F0F0F0;
+    --color-light-gray: #F0F0F0;
      font-family: "poppins", sans-serif;
 
 
@@ -41,11 +41,20 @@ header {
 #news {
     background-color: var(--color-white);
     text-align: center;
+    margin: 15px;
+}
+.container-news {
+    
+    padding-bottom: 20px;
 }
 
 .container-news h2 {
     color: var(--color-dark-gray);
 
+}
+
+.card-container {
+    background-color: var(--color-light-gray);
 }
 
 
