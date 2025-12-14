@@ -57,6 +57,18 @@ header {
     background-color: var(--color-light-gray);
 }
 
+.container-buttor {
+    padding: 20px 0px 30px 0px;
+}
 
+#games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
 
+.container-section-games {
+    text-align: center;
+}
 
