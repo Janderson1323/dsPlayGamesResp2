@@ -130,10 +130,6 @@ header {
     border-radius: 8px; 
 }
 
-.container-ls a {
-    
-
-}
 
 #games {
     display: flex;
@@ -172,7 +168,8 @@ header {
     border-radius: 8px;
     text-align: center;
     box-sizing: border-box;
-    margin: 45px 0 10px 0;
+    margin: 15px 0 50px 0;
+    
 }
 
 .control-button01 input {
@@ -265,5 +262,42 @@ footer {
 }
 
 
+#games {
+    background-color: var(--color-light-gray);
+    padding-top: 35px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
 
 
+.container-section-games h1 {
+    color: var(--color-green);
+    padding: 15px 0 30px 0;
+}
+
+.container-img img {
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.container-img h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-dark-gray);
+}
+.text-img-container {
+    text-align: center;
+}
+
+.text-img-container p {
+    padding-right: 5px;
+    font-size: 14px;
+   display: flex;
+   
+}
+
+.cont {
+    display: flex;
+}
