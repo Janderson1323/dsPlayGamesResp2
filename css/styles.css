@@ -41,24 +41,79 @@ header {
 #news {
     background-color: var(--color-white);
     text-align: center;
-    margin: 15px;
+    padding-top: 50px;
+   
 }
+
 .container-news {
-    
     padding-bottom: 20px;
+
 }
 
 .container-news h2 {
     color: var(--color-dark-gray);
-
+    padding-bottom: 20px;
 }
 
 .card-container {
+    flex-wrap: wrap;
     background-color: var(--color-light-gray);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    
 }
 
-.container-buttor {
+.card-container h3 {
+    color: var(--color-green);
+    text-align: left;
+}
+
+.card-container p {
+   
+    text-align: left;
+}
+
+.card-container a {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-magenta);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.item {
+    border-bottom: 1px solid var(--color-green);
+}
+
+.item2 {
+    color: var(--color-green);
+}
+
+.container-button {
     padding: 20px 0px 30px 0px;
+    text-decoration: none;
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+
+.container-button a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-magenta);
+    border-radius: 8px; 
+}
+
+.container-ls a {
+    
+
 }
 
 #games {
@@ -85,6 +140,31 @@ header {
     align-items: center;
     
 }
+
+.buttons01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.control-button01 {
+
+    background-color: var(--color-magenta);
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 45px 0 10px 0;
+}
+
+.control-button01 input {
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-magenta);
+    border-radius: 8px;
+     width: 244px;
+    height: 67px;
+}
+
 
 .control-button {
     background-color: var(--color-magenta);
@@ -132,6 +212,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 
