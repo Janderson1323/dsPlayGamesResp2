@@ -79,6 +79,74 @@ header {
 }
 
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.control-button {
+    background-color: var(--color-magenta);
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 45px 0 10px 0;
+
+}
+
+.control-button input {
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-magenta);
+    border-radius: 8px;
+     width: 244px;
+    height: 67px;
+}
+
+
+.control-button2 {
+    background-color:var(--color-white);
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px 0 15px 0;
+    
+}
+
+.control-button2 input {
+   font-weight: 700;
+    color: var(--color-magenta);
+    background-color: var(--color-white);
+    border-radius: 8px;
+     width: 244px;
+    height: 67px;
+
+}
+   
+footer {
+    width: 100%;
+    height: 302px;
+    background-color: #383838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-container {
+     padding: 50px 0 65px 0;
+     
+     color: var(--color-white);
+     font-size: 14px;
+   
+    
+}
+
+.footer-container p {
+    padding: 5px;
+}
 
 
 
