@@ -146,6 +146,43 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px 0 30px 0px;
+}
+
+.container-input-filho1 input[type="text"] {
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.container-input-filho1 input[type="email"] {
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.container-input-filho1 label {
+    
+}
+
+#inscription h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-dark-gray);
+    padding-bottom: 30px;
+
+}
+
+.container-input-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-input-filho1 {
+   
+
 }
 
 
@@ -267,6 +304,11 @@ footer {
     padding-top: 35px;
     display: flex;
     align-items: center;
+    padding: 70px 0 40px 0;
+}
+
+#games h1 {
+    color: var(--color-green);
 }
 
 .containerç {
@@ -282,7 +324,11 @@ footer {
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin: 20px 20px 40px 20px;
+    margin: 20px 20px 30px 20px;
+}
+
+.items-container h1 {
+    padding-top: 20px;
 }
 .container-img img {
     border-radius: 8px 8px 0px 0px;
@@ -321,6 +367,9 @@ footer {
     font-weight: 700;
 
 }
+
+
+
 
 
 
