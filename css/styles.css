@@ -22,20 +22,51 @@ header {
    height: 90px;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-evenly;
+  
+   
+   
   
 }
+.heade-container {
+    
+}
+.asdas {
+   
+}
 
+.header-container {
+    display: flex;
+    align-items: center;
+    
+
+}
 .logo {
     padding: 15px;
     color: var(--color-white);
     font-weight: 700;
+    justify-content: flex-start;
+    
+    
+
+}
+
+.container-nav-head {
+   
+}
+
+.logo a {
+    
 }
 
 
 .container-avatar img {
     width: 62px;
     padding: 15px;
+}
+.container-nav-head a {
+    
+    text-align: left;
 }
 
 #news {
@@ -416,6 +447,14 @@ footer {
 
 }
 
+@media(min-width: 576px) {
+    
+
+}
+
+@media(min-width: 768px) {
+ 
+}
 
 
 
