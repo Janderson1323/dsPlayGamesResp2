@@ -135,6 +135,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    
    
 }
 
@@ -147,6 +149,26 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 80px 0 30px 0px;
+    
+    margin: 35px 10px 40px 10px;
+    border-radius: 8px;
+    
+    
+}
+.container-input-pai {
+    
+    width: 300px;
+    
+}
+
+.container-nave-mae {
+  background-color: var(--color-light-gray);
+  padding: 20px 5px 40px 0px;
+  border-radius: 8px;
+}
+
+.container-input-filho1 {
+    padding: 10px;
 }
 
 .container-input-filho1 input[type="text"] {
@@ -163,9 +185,7 @@ header {
     text-align: center;
 }
 
-.container-input-filho1 label {
-    
-}
+
 
 #inscription h1 {
     font-size: 24px;
@@ -175,10 +195,27 @@ header {
 
 }
 
+#inscription h3 {
+    color: var(--color-dark-gray);
+    font-weight: 400;
+}
+
+.inscription-container {
+    padding-left: 16px;
+}
+
+
+.inscription-container2 {
+    padding-left: 15px;
+    padding-top: 30px;
+    
+}
+
 .container-input-pai {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
 }
 .container-input-filho1 {
    
