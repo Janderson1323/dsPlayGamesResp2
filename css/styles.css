@@ -202,6 +202,7 @@ header {
   background-color: var(--color-light-gray);
   padding: 20px 5px 40px 0px;
   border-radius: 8px;
+ 
 }
 
 .container-input-filho1 {
@@ -212,6 +213,8 @@ header {
     width: 280px;
     height: 50px;
     border-radius: 4px;
+    display: fle;
+    align-items: center;
     text-align: center;
 }
 
@@ -229,6 +232,12 @@ header {
     font-weight: 700;
     color: var(--color-dark-gray);
     padding-bottom: 30px;
+
+}
+#inscription1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 
@@ -476,18 +485,35 @@ footer {
  }
 
 .buttons {
-    
     flex-direction: row;
-    
 }
+
 .control-button {
-    
     margin: 10px 10px 0px 10px;
 }
 
 .control-button2 {
-    
     margin: 10px 10px 0px 10px;
+}
+
+.container-input-filho1 input[type="text"] {
+
+    width: 642px;
+    height: 50px;
+}
+
+
+.container-input-filho1 input[type="email"] {
+    width: 642px;
+    height: 50px;
+}
+
+.inscription-container {
+    background-color: red;
+   
+    text-align: left;
+    padding: 0;
+    align-items: left;
 }
 
 
