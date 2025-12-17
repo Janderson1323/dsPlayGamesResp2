@@ -22,7 +22,7 @@ header {
    height: 90px;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
   
    
    
@@ -51,12 +51,13 @@ header {
 
 }
 
-.container-nav-head {
-   
+.heade-container {
+    display: flex;
+    align-items: center;
 }
 
-.logo a {
-    
+.heade-container a {
+    display: none;
 }
 
 
