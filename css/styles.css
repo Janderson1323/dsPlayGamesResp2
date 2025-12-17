@@ -58,6 +58,12 @@ header {
 
 .heade-container a {
     display: none;
+    padding-left: 20px;
+    font-size: 14px;
+    color: var(--color-white);
+    text-decoration: none;
+    
+    
 }
 
 
@@ -249,10 +255,7 @@ header {
     align-items: center;
     font-size: 16px;
 }
-.container-input-filho1 {
-   
 
-}
 
 
 .buttons {
@@ -382,9 +385,15 @@ footer {
 #games {
     background-color: var(--color-light-gray);
     padding-top: 35px;
+    
     display: flex;
     align-items: center;
     padding: 70px 0 40px 0;
+}
+
+.container-cards {
+    display: block;
+
 }
 
 #games h1 {
@@ -454,9 +463,45 @@ footer {
 }
 
 @media(min-width: 768px) {
- 
+ .heade-container a {
+    display: flex;
+ }
+
+
+
 }
 
+@media(min-width: 1200px)
+{
+     .container-cards {
+    display: flex;
+} 
+
+    .card-container {
+        max-width: 960px;
+        
+
+    }
+    .card-container a {
+        text-align: center;
+
+    }
+    .card-container p {
+        text-align: center;
+
+    }
+    .card-container h3 {
+        text-align: center;
+    }
+
+    .container-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+}
 
 
 
