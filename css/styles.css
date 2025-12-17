@@ -243,7 +243,7 @@ header {
 
 
 .inscription-container2 {
-    padding-left: 15px;
+    
     padding-top: 30px;
     
 }
@@ -449,11 +449,12 @@ footer {
     padding-right: 3px;
 }
 
+
+
 .config2 {
     color: var(--color-dark-gray);
     font-size: 10px;
     font-weight: 700;
-
 }
 
 @media(min-width: 576px) {
@@ -471,12 +472,26 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+     border-radius: 8px;
  }
 
-
-.inscription-container2{
-    padding-left: 0px;
+.buttons {
+    
+    flex-direction: row;
+    
 }
+.control-button {
+    
+    margin: 10px 10px 0px 10px;
+}
+
+.control-button2 {
+    
+    margin: 10px 10px 0px 10px;
+}
+
+
+
 
 
 
@@ -491,8 +506,6 @@ footer {
     .card-container {
         max-width: 960px;
         max-height: 247px;
-        
-
     }
     .card-container a {
         text-align: center;
@@ -516,6 +529,7 @@ footer {
     .container-text-one a {
         padding-left: 5px;
     }
+    
     
 
 }
